@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "YaPECS"
+version = "0.0.0"
+description = "Fast, lightweight Python ECS"
+authors = ["Slavfox <slavfoxman@gmail.com>"]
+license = "MPL-2.0"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
